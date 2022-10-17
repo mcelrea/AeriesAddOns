@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.makery.address.view.CalGrantController">
+    <children>
+        <Button fx:id="chooseFile" layoutX="208.0" layoutY="23.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="156.0" text="Choose File" />
+        <!-- <Button fx:id="processFile" layoutX="96.0" layoutY="104.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="208.0" text="" /> -->
+        <Button fx:id="calcGPAs" layoutX="208.0" layoutY="100.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="156.0" text="Produce GPA Calcs" />
+        <Separator layoutY="81.0" prefHeight="16.0" prefWidth="600.0" />
+        <Label layoutX="39.0" layoutY="30.0" prefHeight="30.0" prefWidth="48.0" text="Step 1" />
+        <Separator layoutY="150.0" prefHeight="16.0" prefWidth="600.0" />
+        <Label layoutX="39.0" layoutY="186.0" prefHeight="22.0" prefWidth="39.0" text="Step 3" />
+        <Label layoutX="39.0" layoutY="120.0" prefHeight="22.0" prefWidth="39.0" text="Step 2" />
+        <Button fx:id="produceCSV" layoutX="208.0" layoutY="177.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="156.0" text="Write to CVS"/>
+        <Button fx:id="backButton" layoutX="520.0" layoutY="10.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="50.0" text="Back" />
+        <!-- <Button fx:id="processFile3" layoutX="348.0" layoutY="168.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="217.0" /> -->
+    </children>
+</AnchorPane>

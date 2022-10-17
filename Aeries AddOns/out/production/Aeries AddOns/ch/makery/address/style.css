@@ -1,0 +1,29 @@
+#pane{
+    -fx-background-image: url("safeBack.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 603 375;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+.button{
+    -fx-text-fill: #006464;
+    -fx-background-color: #DFB951;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-padding: 5;
+}
+
+.label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+#menuItem {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.makery.address.view.FirstSceneController">
+   <children>
+      <Button fx:id="fixHoursButton" layoutX="28.0" layoutY="170.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="175.0" text="Service Hours" />
+      <Button fx:id="studentSchedulesButton" layoutX="28.0" layoutY="220.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="175.0" text="Student Schedules" />
+      <Button fx:id="athleticEligibilityButton" layoutX="28.0" layoutY="270.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="175.0" text="Athletic Eligibility" />
+      <Button fx:id="calGrantGPAButton" layoutX="28.0" layoutY="320.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="175.0" text="Cal Grant" />
+      <Button fx:id="smsRoadmapButton" layoutX="400.0" layoutY="170.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="175.0" text="SMS/MST Roadmap" />
+      <Button fx:id="fixHoursButton21" layoutX="400.0" layoutY="220.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="175.0" />
+      <Button fx:id="fixHoursButton22" layoutX="400.0" layoutY="270.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="175.0" />
+      <Button fx:id="fixHoursButton221" layoutX="400.0" layoutY="320.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="175.0" />
+      <Label layoutX="15" layoutY="0" text="Version 1.0.0.1" />
+   </children>
+</AnchorPane>

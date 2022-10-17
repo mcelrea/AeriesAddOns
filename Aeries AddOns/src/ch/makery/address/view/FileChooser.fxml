@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.makery.address.view.FileChooserController">
+   <children>
+      <Button fx:id="chooseFile" layoutX="340.0" layoutY="23.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="156.0" text="Import Hours" />
+      <Button fx:id="chooseFileStudentList" layoutX="140.0" layoutY="23.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="156.0" text="Import Student List" />
+      <!--<Button fx:id="processFile" layoutX="96.0" layoutY="104.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="208.0" text="" />-->
+      <Button fx:id="produceHTML" layoutX="120.0" layoutY="241.0" mnemonicParsing="false" prefHeight="71.0" prefWidth="163.0" text="Produce HTML" />
+      <Separator layoutY="81.0" prefHeight="16.0" prefWidth="600.0" />
+      <Label layoutX="39.0" layoutY="14.0" prefHeight="30.0" prefWidth="48.0" text="Step 1" />
+      <Separator layoutY="219.0" prefHeight="16.0" prefWidth="600.0" />
+      <Label layoutX="44.0" layoutY="235.0" prefHeight="22.0" prefWidth="39.0" text="Step 3" />
+      <Label layoutX="39.0" layoutY="97.0" prefHeight="22.0" prefWidth="39.0" text="Step 2" />
+      <Button fx:id="backButton" layoutX="520.0" layoutY="10.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="50.0" text="back"/>
+      <Button fx:id="processSeniors" layoutX="200.0" layoutY="154.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="217.0" text="Process All Hours" />
+      <Button fx:id="produceCSV" layoutX="348.0" layoutY="241.0" mnemonicParsing="false" prefHeight="71.0" prefWidth="163.0" text="Produce CSV"/>
+   </children>
+</AnchorPane>
